@@ -1,0 +1,17 @@
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload i
+{
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
